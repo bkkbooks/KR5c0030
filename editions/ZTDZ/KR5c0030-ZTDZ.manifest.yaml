@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5c0030/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0030/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上老君說天妃救苦靈驗經
+  date: '2015-08-29 00:16:55.472673'
+  source:
+    repository: kanripo
+    path: KR5c0030
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0030_000-ZTDZ.yaml, hash: 'sha256:ad5a716cbb2e9ab0fdf6d0ec6c4e664f9f51c804bb335a667d9333cf83db5d36'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0030_000-ZTDZ.markers.yaml, hash: 'sha256:70afbbcc52cb1a4491121aecd7810b399c2ec715913d12d046efa0c4e2c413fb'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0030_SJB_000-110408b
+    span:
+    - body
+    - 0
+    - 1803
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ad555be6158fbcfcb145fa65e4139139330d93967aadbefc8dd050ffcba6ece3
